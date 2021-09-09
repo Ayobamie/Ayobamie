@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Online Store For Electronics</title>
+</head>
+<body>
+    <div class="parent_container">
+        <div class="container">
+            <h1 id="HEADER">WELCOME TO BABSXO INTERNATIONAL ELECTRONICS STORE</h1>
+            <div class="secondContainer">
+                <div class="svg">
+                    <a href=""><object data="image/global.svg" type=""width="50px" ></object></a>
+                    <a href=""><object data="image/instagram.svg" type=""width="50px" id="instagram"></object></a>
+                    <a href=""><object data="image/twitter.svg" type=""width="50px" ></object></a>
+                        
+                </div>
+                <button class="sign_up" onclick="myInput()" width="400px">sign up</button>
+            </div>      
+                <div class="signUpContainer">
+                    <h2 class="header">SIGN UP</h2>
+                    <input type="text" name="" id="username" placeholder="username">
+                    <input type= "password" name="" id="pasword" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="must contain at least one number and one uppercase and lowercase letter,and at least 8 or more characters" required>
+                    
+                    <a href="./second page.html"><button type="button" id="submit" >Submit</button></a>
+                 
+                </div>
+                <div id="message">
+                    <h3>password must contain the following:</h3>
+                    <p id="letter" class="invalid">A lowercase letter</p>
+                    <p id="capital" class="valid">A capital(UPPERCASE) letter</p>
+                    <p id="number" class="invalid">A number</p>
+                    <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+
+                </div>
+            <footer class="foot">
+                <p>ABOUT</p>
+                <P>FAQ</P>
+                <P>HELP</P>
+                <p>SETTING</p>
+                <P>FEEDBACK</P>
+                <P>TERM</P>
+            </footer>
+        </div>
+                    
+    </div>
+</body>
+<script src="online.js"></script>
+</html>
